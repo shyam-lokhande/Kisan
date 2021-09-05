@@ -1,0 +1,98 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0 0;
+    padding: 0 0;
+    font-weight: 500;
+    background: linear-gradient(162deg,rgb(49, 153, 173) 0%, rgba(9,85,121,1) 50%, rgba(9,20,128,1) 89%,  rgba(2,0,36,0.938813025210084) 100%) no-repeat;
+}
+nav, nav>div{
+    background: linear-gradient(162deg, rgba(2,0,36,0.938813025210084) 0%, rgba(9,85,121,1) 50%, rgba(9,20,128,1) 89%,  rgba(2,0,36,0.938813025210084) 100%) no-repeat;
+}
+.navbar-brand{
+    color: rgb(248, 252, 252);
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    color: white;
+    background: linear-gradient(162deg, rgba(2,0,36,0.938813025210084) 0%, rgba(9,85,121,1) 50%, rgba(9,20,128,1) 89%, rgb(49, 153, 173) 100%) no-repeat;
+}
+.main{
+    background: rgb(49, 153, 173);
+    font-weight: 700;
+}
+.dropdown-menu{
+    background: linear-gradient(162deg, rgba(2,0,36,0.938813025210084) 0%, rgba(9,85,121,1) 50%, rgba(9,20,128,1) 89%, rgb(49, 153, 173) 100%) no-repeat;
+    color: white;
+}
+.dropdown-item{
+    color: white;
+}
+.nav-item:hover, .dropdown-item:hover{
+    background: linear-gradient(162deg,rgb(49, 153, 173) 0%, rgba(9,85,121,1) 50%, rgba(9,20,128,1) 89%,  rgba(2,0,36,0.938813025210084) 100%) no-repeat;
+    color: rgb(248, 252, 252);
+    transition: 0.1s;
+}
+.bt{
+    background: linear-gradient(162deg,rgb(49, 153, 173) 0%, rgba(9,85,121,1) 50%, rgba(9,20,128,1) 89%,  rgba(2,0,36,0.938813025210084) 100%) no-repeat;
+    color: rgb(248, 252, 252);
+}
+.bt:hover{
+    background: rgb(49, 153, 173);
+    color: rgb(248, 252, 252);
+}
+a,a:hover,.footerText{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.iv{
+    font-weight: 500;
+}
+.foot{
+    background: linear-gradient(162deg,rgb(3, 35, 41) 0%, rgba(9,85,121,1) 50%, rgba(9,20,128,1) 89%,  rgba(2,0,36,0.938813025210084) 100%) no-repeat;
+    width: 100vw;
+    color: white;
+    font-weight: 500;
+}
+.foot1{
+    height: 90px;
+    width: 100vw;
+    color: white;
+}
+.foot2{
+    background: linear-gradient(162deg,rgb(37, 155, 175) 0%, rgb(15, 62, 83) 50%, rgba(9,20,128,1) 89%,  rgba(2,0,36,0.938813025210084) 100%) no-repeat;
+    width: 100%;
+    color: white;
+    font-weight: 500;
+}
+.news_card{
+    background: linear-gradient(162deg,rgb(37, 155, 175) 0%, rgb(15, 62, 83) 50%, rgba(9,20,128,1) 89%,  rgba(2,0,36,0.938813025210084) 100%) no-repeat;
+    color: white;
+    font-weight: 500;
+}
+.profile{
+    background: linear-gradient(162deg,rgb(49, 153, 173) 0%, rgba(9,85,121,1) 50%, rgba(9,20,128,1) 89%,  rgba(2,0,36,0.938813025210084) 100%) no-repeat;
+    color: rgb(248, 252, 252);
+}
+.agri_video{
+    background: linear-gradient(162deg,rgb(37, 155, 175) 0%, rgb(15, 62, 83) 50%, rgba(9,20,128,1) 89%,  rgba(2,0,36,0.938813025210084) 100%) no-repeat;
+    color: white;
+    width: 100%;
+    font-weight: 500;
+}
+.carousel{
+    width: 100%;
+}
+.carousel-item{
+    height: 60vh;
+    width: 80vw;
+    margin-left: 10vw;
+} 
+.carousel-item img{
+    height: 60vh;
+    width: 80vw;
+}
+.card-title, .prof_Name{
+    color: rgb(210, 245, 10);
+}

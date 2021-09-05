@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/payment.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>SWASTHYA-Helping Hand</title>
+</head>
+<body>
+    <div class="card mt-50 mb-50">
+        <div class="card-title mx-auto"> Helping Hand To SWASTHYA </div>
+        <form action="./help.html">
+            <div class="row three">
+                <div class="col-7">
+                    <div class="row-1 pb-2">
+                        <div class="row row-2"> <span id="card-inner">Card number</span> </div>
+                        <div> <input type="text" minlength="8" id="card" placeholder="**** **** **** ****"> </div>
+                    </div>
+                </div>
+                
+                <div class="col-2 pb-2"><div class="row row-2"> <span id="card-inner">Expiary Date</span> <input type="date"></div>  </div>
+                <div class="col-2 pb-2 pt-2 px-2"><div class="row row-2"> <span id="card-inner">CVV</span> <input type="text" placeholder="CVV"> </div>
+                
+            </div> 
+            <div class="col-2 pb-2 pt-2 px-2"><div class="row row-3"> <span id="card-inner">Amount</span> <input type="text" value="Rs."> </div></div>
+            <button class="btn d-flex mx-auto btn-outline-success" type="submit" onclick="Confirm();"><b>Make Payment</b></button>
+            
+        </form>
+    </div>
+    <script>
+        function Confirm(){
+            var x = confirm("Do you want to proceed");
+            if(x){
+                alert("Congratulations !!!!!! Your paymant was Successful.")
+            }
+        }
+
+    </script>
+</body>
+</html>
