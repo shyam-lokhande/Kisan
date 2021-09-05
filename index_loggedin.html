@@ -12,7 +12,6 @@
     />
     <link href="./src/index.css" rel="stylesheet"/>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/footers/">
-    <script src="./profile.js"></script>
     <title>SWASTHYA</title>
   </head>
   <body">
@@ -85,10 +84,12 @@
           <form class="d-flex">
             <input
               class="form-control me-2 iv"
+              id="myInput" onkeyup="myFunction()"
               type="search"
               placeholder="Search"
               aria-label="Search"
             />
+            
             <button class="btn btn-outline-success text-light iv" type="submit">
               Search
             </button>
@@ -98,6 +99,7 @@
       </div>
 </nav>
 
+
     <!-- offcanvas body  -->
     <div class="offcanvas offcanvas-end profile" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header">
@@ -105,7 +107,7 @@
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body" >
-            <h4 id="showname">Shyam Nagnath Lokhande</h4><br>
+            <h4 id="showname">Lokhande Shyam Nagnath</h4><br><br>
             <h5>Mail Id : lokhandeshyam90@gmail.com</h5>
         </div>
     </div>
@@ -314,9 +316,10 @@
 
     
     <!-- javadcripts -->
+    <script src="./sweetalert2.all.min.js"></script>
     <script>
       function leave(){
-        alert("You are being redirected to an external website. Please note that National Portal is not responsible for external websites content & privacy policies.")
+        var swal1 = swal.fire('You are being redirected to an external website. Please note that National Portal is not responsible for external websites content & privacy policies.')
       }
     </script>
     <script
